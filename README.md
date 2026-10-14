@@ -22,7 +22,7 @@ in multi-object tracking and segmentation (MOTS).
 
 - An occlusion-aware tracker that keeps identities through 1 to 5 second hides: 0% to 89% in simulation, and 2% to 57%
   on real street geometry from 1,256 driving clips.
-- Robotics Research Assistant, University of Maine Robotics Laboratory: ROS 2, EKF localization, lidar perception.
+- Graduate Research Assistant, CVAR Lab (Computer Vision and Robotics), University of Maine: ROS 2, EKF localization, lidar perception.
 
 **Where to look**
 
