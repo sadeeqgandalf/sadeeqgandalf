@@ -18,6 +18,13 @@ in multi-object tracking and segmentation (MOTS).
   and does not help SAM 3: motion outside the tracker says where an object is, not who it is.
 - Next: motion inside SAM 3's tracker, recovery after occlusion, and test-server submissions.
 
+**New: [occlusion-aware 3D tracker in C++](https://github.com/sadeeqgandalf/occlusion-tracker).** Each track carries
+the probability its object still exists; a miss counts only as much as the object should have been seen, from measured
+detection rates and camera sight lines. On KITTI val it keeps identities better than AB3DMOT (association accuracy 77.7
+vs 76.6 for cars, 49.4 vs 48.4 for pedestrians) with no tuned thresholds, at 0.15 ms per frame.
+
+<img src="https://raw.githubusercontent.com/sadeeqgandalf/occlusion-tracker/main/docs/kitti_0016.gif" width="640" alt="Occlusion-aware 3D tracker on KITTI 0016">
+
 **Before that**
 
 - An occlusion-aware tracker that keeps identities through 1 to 5 second hides: 0% to 89% in simulation, and 2% to 57%
