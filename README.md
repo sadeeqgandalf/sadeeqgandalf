@@ -39,4 +39,4 @@ vs 76.6 for cars, 49.4 vs 48.4 for pedestrians) with no tuned thresholds, at 0.1
 - Tracker and simulation code: [lunar-occlusion-tracking](https://github.com/sadeeqgandalf/lunar-occlusion-tracking)
 
 Python, C++, PyTorch, ROS 2, OpenCV, filterpy, MATLAB, TrackEval.
-Contact: [sideeqadeyemi@icloud.com](mailto:sideeqadeyemi@icloud.com)
+
