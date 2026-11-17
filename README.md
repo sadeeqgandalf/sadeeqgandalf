@@ -35,7 +35,7 @@ vs 76.6 for cars, 49.4 vs 48.4 for pedestrians) with no tuned thresholds, at 0.1
 
 - Portfolio, CVs and results: [sadeeqgandalf.github.io](https://sadeeqgandalf.github.io)
 - Live occlusion lab: [lunar-occlusion-tracking](https://sadeeqgandalf.github.io/lunar-occlusion-tracking/track.html)
-- SAM 3 / SAM 3.1 benchmark and the filter layer: [av-stack/research/sam_mots_benchmark](https://github.com/sadeeqgandalf/av-stack/tree/main/research/sam_mots_benchmark)
+- SAM 3 / SAM 3.1 benchmark and the filter layer: [ComputerVision_Research/sam_mots_benchmark](https://github.com/sadeeqgandalf/ComputerVision_Research/tree/main/sam_mots_benchmark)
 - Tracker and simulation code: [lunar-occlusion-tracking](https://github.com/sadeeqgandalf/lunar-occlusion-tracking)
 
 Python, C++, PyTorch, ROS 2, OpenCV, filterpy, MATLAB, TrackEval.
